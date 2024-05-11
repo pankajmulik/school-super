@@ -35,7 +35,7 @@ function MyCarousel() {
 
   return (
     <div >
-      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} fade={fade} style={{ width: '100%',height:'500px' }}>
+      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} fade={fade} style={{ width: '100%', height: '500px' }}>
         {/* Slide 1 */}
         <Carousel.Item>
           <div style={{ position: 'relative' }}>
@@ -51,7 +51,7 @@ function MyCarousel() {
                   borderRadius: '10px',
                   backgroundColor: 'rgba(0, 0, 0, 0.8)', // Adjust the opacity and color as needed
                 }}>
-                  <h3 className="display-4">Welcome to [Super School]</h3>
+                  <h3 className="display-4">Welcome to Super School</h3>
                   <p className="lead">where every day holds the promise of new adventures and exciting discoveries.
                     Step into our vibrant community and feel the energy of learning all around you.
                     Here, we celebrate diversity and encourage every student to shine bright in their own unique way.</p>
