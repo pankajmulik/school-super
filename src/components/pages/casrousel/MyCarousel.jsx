@@ -51,10 +51,10 @@ function MyCarousel() {
                   borderRadius: '10px',
                   backgroundColor: 'rgba(0, 0, 0, 0.8)', // Adjust the opacity and color as needed
                 }}>
-                  <h3 className="display-4">Welcome to Super School</h3>
-                  <p className="lead">where every day holds the promise of new adventures and exciting discoveries.
+                  <h3 className="display-4" style={{ color: 'blueviolet' }}>Welcome to Super School</h3>
+                  <p className="lead">
                     Step into our vibrant community and feel the energy of learning all around you.
-                    Here, we celebrate diversity and encourage every student to shine bright in their own unique way.</p>
+                  </p>
                   <button type="button" className="btn btn-warning">Join Now</button>
                 </div>
               </div>
@@ -67,7 +67,9 @@ function MyCarousel() {
             </div>
             {/* Content for smaller screens */}
             <div className="d-md-none bg-primary text-white p-3">
-              <h3>Welcome to Super School</h3>
+              <h3 style={{
+                color: 'blueviolet'
+              }} >Welcome to Super School</h3>
               <p>Where Learning Knows No Boundaries. Join a Community of Faithful Learners Pursuing Excellence.
 
               </p>
@@ -83,7 +85,7 @@ function MyCarousel() {
             <img className='d-block w-100' src={img2} alt='img2' style={{ maxHeight: '480px', objectFit: 'cover' }} />
             <div className="d-none d-md-flex justify-content-center align-items-center" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white', maxWidth: '80%', padding: '20px', backgroundColor: 'rgba(0, 0, 0, 0.6)', boxShadow: '0 0 20px 10px blue, 0 0 20px 10px purple, 0 0 20px 10px orange', animation: 'glow 2s infinite alternate' }}>
               <div className="container">
-                <h3 className="display-4">Make A Bright Future For Your Child</h3>
+                <h3 className="display-4" style={{ color: 'blueviolet' }}>Make A Bright Future For Your Child</h3>
                 <button type="button" className="btn btn-primary mt-3">Learn More</button>
               </div>
               <Lottie animationData={slide2} />
@@ -91,7 +93,7 @@ function MyCarousel() {
           </div>
           {/* Content for smaller screens */}
           <div className="d-md-none bg-primary text-white p-3">
-            <h3>Make A Bright Future For Your Child</h3>
+            <h3 style={{ color: 'blueviolet' }}>Make A Bright Future For Your Child</h3>
             <p>"Empower Your Child's Dreams with Super School"</p>
           </div>
         </Carousel.Item>
@@ -101,14 +103,14 @@ function MyCarousel() {
           <div style={{ position: 'relative' }}>
             <img className='d-block w-100' src={img3} alt='img3' style={{ maxHeight: '480px', objectFit: 'cover' }} />
             <div className="d-none d-md-block" style={{ position: 'absolute', top: '50%', left: '10%', transform: 'translateY(-50%)', textAlign: 'left', color: 'white', maxWidth: '30%', backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1), 0 0 20px 10px blue, 0 0 20px 10px orange', animation: 'glow 2s infinite alternate' }}>
-              <h3 className="display-4" style={{ marginBottom: '10px' }}>Explore Your Knowledge: Start Your Journey</h3>
+              <h3 className="display-4" style={{ marginBottom: '10px', color: 'blueviolet' }}>Explore Your Knowledge: Start Your Journey</h3>
               <p className="lead" style={{ fontSize: '1.2em', marginBottom: '20px' }}>Building Foundations, Shaping Futures: Enroll Today!!</p>
-              <p style={{ fontSize: '1em' }}>Come be a part of the fun and learning at [Super School]. You'll make new friends, discover new things, and have the best time ever!</p>
+              <p style={{ fontSize: '1em' }}>Come be a part of the fun and learning at Super School. You'll make new friends, discover new things, and have the best time ever!</p>
             </div>
           </div>
           {/* Content for smaller screens */}
           <div className="d-md-none bg-primary text-white p-3">
-            <h3>Explore Your Knowledge: Start Your Journey</h3>
+            <h3 style={{ color: 'blueviolet' }}> Explore Your Knowledge: Start Your Journey</h3>
             <p>Building Foundations, Shaping Futures: Enroll Today</p>
           </div>
           {/* Animation and background image */}

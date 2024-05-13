@@ -13,7 +13,7 @@ const OurVisionMission = () => {
         <div className="container-fluid bg-light p-0">
             
             <div className="row position-relative">
-                <div className="col main-image-container">
+                <div className="col main-image-container" >
                     <img src={mainImage} alt="Main" className="img-fluid sticky-image w-100" style={{ maxHeight: '600px' }} />
                     <div className="typewriter position-absolute top-3 start-50 translate-middle-x">
                         <h1>OUR VISION & MISSION</h1>

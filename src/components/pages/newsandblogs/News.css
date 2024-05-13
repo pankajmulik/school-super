@@ -1,5 +1,6 @@
 #latest-news-title {
   color: rgb(28, 28, 62)!important;
+  margin-bottom: 1% !important;
 }
 
 .news-container {
@@ -55,7 +56,7 @@
 }
 
 .news-text-muted {
-  color: #adb5bd;
+  color: #736c23;
 }
 
 .news-card:hover .news-card-title,

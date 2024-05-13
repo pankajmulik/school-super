@@ -80,7 +80,7 @@
 }
 
 .unique-card-body {
-  background-color: black;
+  background-color: black !important;
   height: 320px;
   color: white;
   border-radius: 18px;

@@ -21,8 +21,16 @@ const PrincipalDesk = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center mb-1">
-          <h2 style={{ fontSize: '40px' }}>Welcome to Our Super School</h2>
-          <h4 style={{ fontSize: '30px' }}>Where Learning Knows No Bounds</h4>
+          
+
+            <h2 style={{ fontSize: '40px', }}>Welcome to Our Super School</h2>
+            
+         <h4 id="type-pdesk-heading" style={{ fontSize: '30px', fontFamily: 'cursive', color:'aqua' }}>Where Learning has No Boundries</h4>
+
+       
+
+        
+
         </div>
       </div>
 

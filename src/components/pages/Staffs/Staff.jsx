@@ -220,8 +220,11 @@ Additional Information: Miss Williams is also the school's debate coach and has 
           alt="Person 1"
           style={{ height: "300px", width: "300px" }}
         />
-        <div className="founder-body slide">
-          <h5 className="founder-title">Mr.Wilson</h5>
+              <div className="founder-body slide">
+                <div className="dt text-center">
+                  <h5 className="founder-title">Mr.Wilson</h5>
+                </div>
+         
           <p className="founder-text">
             Name: Mr. Wilson<br></br>
             Education: Bachelor's Degree<br></br>
@@ -239,11 +242,18 @@ Additional Information: Miss Williams is also the school's debate coach and has 
           alt="Person 1"
           style={{ height: "300px", width: "300px" }}
         />
-        <div className="founder-body slide">
-          <h5 className="founder-title">Miss Anderson</h5>
-          <p className="founder-text">
-            Name: Miss Anderson<br></br>
-            Education: Bachelor's Degree<br></br>
+              <div className="founder-body slide" >
+                <div className="dt text-center">
+                  <h5 className="founder-title">Miss Anderson</h5>
+                  </div>
+                <p className="founder-text" >
+                  {/* <span >
+                    <strong>Name:</strong>   Miss Anderson
+                  </span><br></br> */}
+                  <span>
+
+                    Education: Bachelor's Degree<br></br>
+                  </span>
             Specialization: English<br></br>
             Additional Info: Miss Anderson is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
@@ -258,8 +268,12 @@ Additional Information: Miss Williams is also the school's debate coach and has 
           alt="Person 1"
           style={{ height: "300px", width: "300px" }}
         />
-        <div className="founder-body slide">
-          <h5 className="founder-title">Mr. White</h5>
+              <div className="founder-body slide">
+                
+                <div className="dt text-center">
+
+                  <h5 className="founder-title">Mr. White</h5>
+                </div>
           <p className="founder-text">
             Name: Mr. White<br></br>
             Education: Bachelor's Degree<br></br>
@@ -278,8 +292,13 @@ Additional Information: Miss Williams is also the school's debate coach and has 
           alt="Person 1"
           style={{ height: "300px", width: "300px" }}
         />
-        <div className="founder-body slide">
+              <div className="founder-body slide">
+                
+                <div className="dt text-center">
+
           <h5 className="founder-title">Mr. Clark</h5>
+                </div>
+
           <p className="founder-text">
             Name: Mr. Clark<br></br>
             Education: Bachelor's Degree<br></br>
@@ -298,7 +317,12 @@ Additional Information: Miss Williams is also the school's debate coach and has 
           style={{ height: "300px", width: "300px" }}
         />
         <div className="founder-body slide">
-          <h5 className="founder-title">Mr. Martinez</h5>
+
+                <div className="dt text-center">
+
+                  <h5 className="founder-title">Mr. Martinez</h5>
+                </div>
+                
           <p className="founder-text">
             Name: Mr. Martinez<br></br>
             Education: Bachelor's Degree<br></br>
@@ -322,8 +346,13 @@ Additional Information: Miss Williams is also the school's debate coach and has 
   </div> */}
 </div>
 
-        <div className="founder-body slide">
-          <h5 className="founder-title">Miss. Thompson</h5>
+              <div className="founder-body slide">
+                
+                <div className="dt text-center">
+
+                  <h5 className="founder-title">Miss. Thompson</h5>
+                </div>
+
           <p className="founder-text">
             Name: Miss. Thompson<br></br>
             Education: Bachelor's Degree<br></br>

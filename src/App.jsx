@@ -18,6 +18,7 @@ import Calender from './components/pages/calender/Calender'
 import News from './components/pages/newsandblogs/News'
 
 import BlogPage from './components/pages/blog/BlogPage'
+import Privacy from './components/privacy/Privacy'
 const App = () => {
   return (
     <BrowserRouter>
@@ -41,8 +42,16 @@ const App = () => {
         <Route path='/news' element={<News />} />
 
         <Route path='/blogs' element={<BlogPage/>} />
+       
+        <Route path='/privacy-policy' element={<Privacy/>} />
+       
+       
         {/* No Pages Available Route */}
         <Route path='*' element={<div className='container d-flex justify-content-center align-items-center' style={{ height: '78vh' }}><img src="./errorpage.avif" alt="404" height={220} /></div>} />
+     
+     
+        
+
       </Routes>
       <Footer />
     </BrowserRouter>

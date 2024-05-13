@@ -28,45 +28,55 @@ const WhySuperSchool = () => {
                 </div>
             </div>
             <br />
-            <div>
+            <div className='text-center text-secondary' style={{fontFamily:'cursive'}}>
 
-                <h1>The Top Reasons Our School Excels</h1><br />
+                <h1>Why us</h1><br />
                 <div className="features">
                     <div className="p-3 m-2 rounded shadow-sm animate__animated animate__fadeInLeft animate__delay-3s " >
-                        <FontAwesomeIcon icon={faBook} className="icon" />
+                        <FontAwesomeIcon icon={faBook} className="icon text-light" />
                         <h2 className="mt-2">Diverse Curriculum</h2>
                         <p>Our school offers a diverse curriculum to cater to the interests and needs of all students.</p>
                     </div>
                     <div className="p-3 m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInUp animate__delay-1s" >
-                        <FontAwesomeIcon icon={faGlobe} className="icon" />
+                        <FontAwesomeIcon icon={faGlobe} className="icon text-light" />
                         <h2 className="mt-2">Global Perspective</h2>
                         <p>We promote global awareness and understanding through various international programs.</p>
                     </div>
                     <div className="p-3 m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInRight animate__delay-2s" >
-                        <FontAwesomeIcon icon={faGraduationCap} className="icon" />
+                        <FontAwesomeIcon icon={faGraduationCap} className="icon text-light" />
                         <h2 className="mt-2">Top-notch Education</h2>
                         <p>Our school offers high-quality education with experienced teachers.</p>
                     </div>
                     <div className="p-3 m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInLeft animate__delay-1s" >
-                        <FontAwesomeIcon icon={faTools} className="icon" />
+                        <FontAwesomeIcon icon={faTools} className="icon text-light" />
                         <h2 className="mt-2">State-of-the-Art Facilities</h2>
                         <p>We have modern facilities to support learning and extracurricular activities.</p>
                     </div>
                     <div className="p-3 m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInUp animate__delay-2s" >
-                        <FontAwesomeIcon icon={faUsers} className="icon" />
+                        <FontAwesomeIcon icon={faUsers} className="icon text-light" />
                         <h2 className="mt-2">Strong Community</h2>
                         <p>Our school fosters a sense of community and belonging among students and staff.</p>
                     </div>
                     <div className="p-3 m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInRight animate__delay-3s" >
-                        <FontAwesomeIcon icon={faTrophy} className="icon" />
+                        <FontAwesomeIcon icon={faTrophy} className="icon text-light" />
                         <h2 className="mt-2">Success Stories</h2>
                         <p>Many of our alumni have gone on to achieve great success in their careers.</p>
                     </div>
                 </div>
             </div><br />
 
-            <div className="container">
-                <div className="row justify-content-center mt-4">
+            
+          
+
+            <div className="container ">
+               
+                <div className="grid text-center" style={{ width: '100%', margin: '0', padding: '0' }}>
+                    <h2 className='fw-bolder'>
+                        What We offer
+                    </h2>
+                </div>
+            
+                <div className="row justify-content-center ">
                     <div className="col-md-4 mb-4">
                         <div className="card student-card">
                             <div className="card-body d-flex flex-column align-items-center">

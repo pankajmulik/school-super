@@ -31,10 +31,11 @@ const Newscarousel = ({items}) => {
   return (
       <>
           <div>
-              <div className='fixedname'>
-                  <h1 style={{ background: '#5681F9', color: 'white', fontSize: '60px', textAlign: 'center' }} className='tagh1 animate__animated animate__fadeInDown no-hover-shadow'>OUR SCHOOL NEWS</h1>
+              <div className='fixedname' style={{ background: '#5681F7', }}>
+                  <h1 style={{ color: 'white', fontSize: '60px', textAlign: 'center' }}
+                      className='tagh1 animate__animated animate__fadeInDown no-hover-shadow'>OUR SCHOOL NEWS</h1>
               </div>
-              <Carousel activeIndex={activeIndex} onSelect={handleSelect} className='news-carousel' >
+              <Carousel activeIndex={activeIndex} onSelect={handleSelect} className='news-carousel'  >
                   {items.map((item) => (
                       <Carousel.Item key={item.id}>
                           <img

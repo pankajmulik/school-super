@@ -29,7 +29,13 @@ const Sliderfeedback = () => {
 
   return (
     <Container fluid>
-      <h1 className="text-center text-primary mt-3 mb-3">SATISFIED PARENT</h1>
+      <div className="container">
+        <h1 className="text-center  text-primary mt-3 mb-4  text-secondary" style={{
+          color: 'yellowgreen',
+          fontFamily: 'cursive'
+        }}>SATISFIED PARENT</h1>
+
+      </div>
       <Swiper
         effect={"cards"}
         grabCursor={true}
