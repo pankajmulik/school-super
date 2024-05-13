@@ -7,12 +7,12 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar --navbar-1 m-0  sticky-top navbar-expand-lg border-bottom">
-                <div className="container-fluid">
+                <div className="container-fluid flex-between " style={{paddingRight:'4px'}}>
                     <div className="navbar-brand">
                         <img src="./hlogo1.png" alt="" className="navbar-brand-img" height={50} />
-                        <span className='h4 text-white mx-2'>SUPER SCHOOL</span>
+                        <span className='h4 text-white mx-2 fs-6'>SUPER SCHOOL</span>
                     </div>
-                    <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar2"
+                    <button className="navbar-toggler fs-6 " type="button" data-toggle="collapse" data-target="#navbar2"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i className="fas fa-bars text-light"></i>
                     </button>
