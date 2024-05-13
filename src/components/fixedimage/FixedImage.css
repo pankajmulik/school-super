@@ -89,3 +89,17 @@
   background-size: 100% 1000px;
   background-position:center  ;
   }
+
+
+  @media (max-width: 576px) {
+    .For_Background_Image{
+      margin: 0% !important;
+      padding: 0% !important;
+      text-align: center;
+    }
+    .imagefix1{
+      font-size: 12px !important;
+
+    }
+  }
+

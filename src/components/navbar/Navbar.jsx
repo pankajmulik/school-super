@@ -7,12 +7,12 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar --navbar-1 m-0  sticky-top navbar-expand-lg border-bottom">
-                <div className="container-fluid flex-between " style={{paddingRight:'4px'}}>
+                <div className="container-fluid flex-between " style={{paddingRight:'8px'}}>
                     <div className="navbar-brand">
                         <img src="./hlogo1.png" alt="" className="navbar-brand-img" height={50} />
                         <span className='h4 text-white mx-2 fs-6'>SUPER SCHOOL</span>
                     </div>
-                    <button className="navbar-toggler fs-6 " type="button" data-toggle="collapse" data-target="#navbar2"
+                    <button className="navbar-toggler fs-6 me-4" type="button" data-toggle="collapse" data-target="#navbar2"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i className="fas fa-bars text-light"></i>
                     </button>
@@ -59,7 +59,7 @@ const Navbar = () => {
             </nav>
             <nav className="navbar --navbar2 p-0 m-0 navbar-expand-lg bg-dark shadow-sm">
                 <div className="container-fluid">
-                    <div className="collapse navbar-collapse" id="navbar2">
+                    <div className="collapse navbar-collapse px-4" id="navbar2">
                         <ul className="navbar-nav mr-auto w-100">
                             {menu ? menu.map((item, index) => (
                                 <li className="nav-item dropdown" key={index}>
