@@ -11,13 +11,13 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 function Footer() {
     return (
-        <div className="footer  text-white px-4">
-            <div className="container" style={{width:'140%'}}>
+        <div className="footer  text-white px-4" style={{overflowWrap:'break-word'}}>
+            <div className="container" >
                 
 
             <div className="row " >
               
-                <div className="col-3 ">
+                <div className="col-3 col-sm  footer-cols">
                     {/* <img src="./hlogo1.png" alt="Logo" className="img img-fluid mb-2"  /> */}
                     <img src="./hlogo1.png" alt="logo" style={{ width: '100px' }} />
 
@@ -53,7 +53,7 @@ function Footer() {
                             {/* <a href="#"><FontAwesomeIcon icon={faPinterest} style={{ color: '#FFFFFF' }} /></a> */}
                     {/* </div>  */}
                 </div>
-                <div className="col-3 sm:pb-3">
+                    <div className="col-3 col-sm footer-cols sm:pb-3">
                     <p>About Us</p>
                     <ul>
 
@@ -75,7 +75,7 @@ function Footer() {
                     </ul>
 
                 </div>
-                <div className="col-3  sm:pb-3">
+                    <div className="col-3 col-sm footer-cols sm:pb-3">
 
                     <p>Academics</p>
                     <ul>
@@ -97,7 +97,7 @@ function Footer() {
 
                     </ul>
                 </div>
-                <div className="col-3 sm:pb-3">
+                    <div className="col-3 col-sm footer-cols sm:pb-3">
 
                     <p> News and Blog</p>
 

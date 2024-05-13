@@ -14,13 +14,13 @@ import Down from './down.json';
 
 const CoCurriculumActivity = () => {
     return (
-        <div className="container-fluid bg-light p-0">
-          
-            <div className="row">
-                <div className="col main-image">
-                    <img src={mainImage} alt="Main" className="img-fluid sticky-image h-100 w-100" />
-                </div>
-            </div>
+        <div className="col bg-light m-0 p-0" style={{ margin: '0', padding: '0' }}>
+
+
+            {/* <div className="col main-image m-0 p-0"  > */}
+            <img src={mainImage} alt="Main" className="img-fluid sticky-image" style={{ width: '100%', margin: '0', padding: '0' }} />
+            {/* </div> */}
+
             <div className="w-100 h-sm-auto h-md-auto h-lg-auto d-flex justify-content-center align-items-center position-relative" style={{ backgroundColor: '#0228c2' }}>
                 <h1 className="m-0 text-center popup-headingco" style={{ color: 'white' }}>Co-Curricular Activities</h1>
 
@@ -37,7 +37,7 @@ const CoCurriculumActivity = () => {
 
                     <div className="content">
                         <h3>Outdoor Adventure</h3>
-                        <p>
+                        <p className='cocurr-p'>
 
                             Experience the thrill of outdoor activities with our latest adventure gear, seasoned experts, and top-notch guides. Whether it's hiking, camping, or mountain biking, we've got everything you need to make your next outdoor excursion unforgettable.</p>
                         <button className="read-more-btn">Read More</button>
@@ -50,7 +50,7 @@ const CoCurriculumActivity = () => {
                     </div>
                     <div class="content">
                         <h3>Innovative Technology Solutions</h3>
-                        <p>
+                        <p className='cocurr-p'>
                             Dive deep into the world of innovation and technology with our state-of-the-art solutions. From cutting-edge artificial intelligence and machine learning to revolutionary blockchain and quantum computing, we're at the forefront of technological advancement.
 
                         </p>
@@ -63,7 +63,7 @@ const CoCurriculumActivity = () => {
                     </div>
                     <div class="content">
                         <h3>Team Building Adventures</h3>
-                        <p>
+                        <p className='cocurr-p'>
                             Strengthen bonds and foster teamwork with our exhilarating team-building activities. From adrenaline-pumping challenges to engaging collaborative problem-solving exercises, our dynamic programs are meticulously crafted to ignite camaraderie, build trust, and boost morale.
                         </p>
                         <button className="read-more-btn">Read More</button>
@@ -77,20 +77,20 @@ const CoCurriculumActivity = () => {
 
                     <div class="content">
                         <h3>Musical and Cultural Celebrations</h3>
-                        <p>
+                        <p className='cocurr-p'>
                             Immerse yourself in the rich tapestry of music and culture with our vibrant events. From traditional performances to contemporary showcases, our celebrations showcase the diversity and creativity.
                         </p>
                         <button className="read-more-btn">Read More</button>
                     </div>
                 </div>
                 <div class="card">
-                    
+
                     <div class="image">
                         <img src="https://static.vecteezy.com/system/resources/previews/007/002/618/non_2x/children-playing-tug-of-war-game-free-vector.jpg" alt="Card Image" />
                     </div>
                     <div class="content">
                         <h3>Sporting Events Extravaganza</h3>
-                        <p>
+                        <p className='cocurr-p'>
                             Immerse yourself in the excitement of competitive sports with our range of thrilling events. Whether you're a participant or spectator, our sporting extravaganzas offer an electrifying atmosphere and unforgettable moments.
                         </p>
                         <button className="read-more-btn">Read More</button>

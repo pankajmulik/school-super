@@ -220,7 +220,7 @@ const Courses = () => {
                           <Container> {/* Use a separate container for related course cards */}
                               <Row>
                                   {selectedCourse.relatedCourses.map((relatedCourse, index) => (
-                                      <Col key={index} md={6}> {/* Use md={6} to fit two cards in one row */}
+                                      <Col key={index} md={6} sm={12}> {/* Use md={6} to fit two cards in one row */}
                                           <RelatedCourseCard {...relatedCourse} />
                                       </Col>
                                   ))}

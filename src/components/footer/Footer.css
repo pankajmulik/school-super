@@ -1,3 +1,16 @@
+
+@media screen and (max-width:576px) {
+    #footer-row{
+display: block;
+flex-wrap: wrap;
+width: 100%;
+    }
+    .footer-cols{
+        width: 100% !important;
+    }
+
+}
+
 .footer {
     position: relative;
     bottom: 0;

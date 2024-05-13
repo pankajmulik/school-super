@@ -98,6 +98,23 @@ p {
     font-size: 1.3rem;
 }
 
+@media screen and (max-width:576px) {
+
+    p{
+        font-size: small;
+    }
+    .home{
+        overflow-x: hidden;
+        width: 100%;
+        background-color: rgb(177, 177, 247);
+
+    }
+    .card:hover{
+        transform: scale(1.55);
+       
+    }
+}
+
 @keyframes fadeIn {
     from {
         width: 0;

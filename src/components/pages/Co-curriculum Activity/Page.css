@@ -23,6 +23,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    overflow-x: hidden;
 }
 
 @media (max-width: 992px) {
@@ -57,7 +58,8 @@ body {
 }
 
 .container .card:hover {
-    height: 380px;
+    height:580px;
+
 }
 
 @media (max-width: 992px) {
@@ -80,13 +82,25 @@ body {
 @media (max-width: 576px) {
     .container .card {
         width: calc(100% - 40px);
+        font-size: small !important;
+        
     }
 
     .container .card:hover {
         gap: 20px;
-        margin-top: 3px;
-        height: 380px;
+        margin-top: 1px;
+        height: 440px;
+        
     }
+    .cocurr-p,button{
+        font-size: 7px !important;
+        width: auto;
+        
+    }
+    .content h3{
+        font-size: medium !important;
+    }
+
 }
 
 

@@ -37,3 +37,12 @@
 .eight {
   background-color: skyblue;
 }
+@media screen and (max-width:576px) {
+
+  .swiper{
+    width: 100% !important;
+  height: 36rem;
+    overflow-x: hidden;
+  }
+  
+}

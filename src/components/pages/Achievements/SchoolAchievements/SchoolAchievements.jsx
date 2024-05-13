@@ -65,7 +65,7 @@ const SchoolAchievements = () => {
             onMouseLeave={() => setOpenCardId(null)}
           >
             <div className="card-header">
-              <h3>{achievement.description}</h3>
+              <p>{achievement.description}</p>
             </div><br />
             <div className="card-content">
               <div className="card-image">

@@ -68,8 +68,9 @@
   color: black;
 }
 
-.achievement-card .card-header h3 {
+.achievement-card .card-header p {
   font-size: 1.5rem;
+  color: rgb(247, 137, 137);
 }
 
 .card-content {
@@ -105,13 +106,16 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width:576px) {
   .achievement-card {
     width: 90%;
   }
 
-  .card-header h3 {
-    font-size: 1rem;
+  .card-header p{
+    font-size: 0.9rem !important;
+  }
+  .school-achievements h2{
+    font-size: 2rem;
   }
 
   .card-content p {
