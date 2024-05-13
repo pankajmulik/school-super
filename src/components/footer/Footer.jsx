@@ -11,17 +11,9 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 function Footer() {
     return (
-<<<<<<< HEAD
         <div className="footer  text-white px-4">
             <div className="container" style={{width:'140%'}}>
                 
-=======
-        <div className="footer text-white">
-            <div className="container">
-                <div className="row">
-                    <div className="col col-md-3 col-sm-6 sm:pb-5">
-                        <img src="./hlogo1.png" alt="Logo" className="img img-fluid mb-2" style={{marginRight:'20px' ,width: '260px', objectFit:'contain'}} />
->>>>>>> d8136f7c9c4535c5dc4cfba8e6193319cac9800f
 
             <div className="row " >
               
@@ -59,7 +51,6 @@ function Footer() {
                             <a href="#"><FontAwesomeIcon icon={faLinkedin} className="mx-2" style={{ color: '#FFFFFF' }} /></a>
                             <a href="#"><FontAwesomeIcon icon={faYoutube} className="mx-2" style={{ color: '#FFFFFF' }} /></a>
                             {/* <a href="#"><FontAwesomeIcon icon={faPinterest} style={{ color: '#FFFFFF' }} /></a> */}
-<<<<<<< HEAD
                     {/* </div>  */}
                 </div>
                 <div className="col-3 sm:pb-3">
@@ -131,25 +122,6 @@ function Footer() {
 
         </div>
     );
-=======
-                        </div>
-                    </div>
-                     <div className="col">
-                         <p>
-                             About us
-                         </p>
-                     
-                     </div>
-
-<div className="col>
-                     </div>
-                
-                    </div>
-                </div>
-            </div>
-               
-                         )           
->>>>>>> d8136f7c9c4535c5dc4cfba8e6193319cac9800f
 }
 
 export default Footer;
