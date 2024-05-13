@@ -91,7 +91,7 @@ const SchoolAmenties = () => {
       <div className="amenities_title">
          
           <h2>School Amenities</h2>
-          <p style={{ fontSize: '30px' }}>Since every child is unique, we at Super School recognize this and provide the young scholars the best possible learning environment.
+          <p className='school-amenties-text fs-4'>Since every child is unique, we at Super School recognize this and provide the young scholars the best possible learning environment.
               and we provide kids first-rate facilities as well.</p>
           <div className="amenities-grid">
               {amenities.map((amenity, index) => (

@@ -78,7 +78,7 @@ const WhySuperSchool = () => {
             
                 <div className="row justify-content-center ">
                     <div className="col-md-4 mb-4">
-                        <div className="card student-card">
+                        <div className="card student-card ">
                             <div className="card-body d-flex flex-column align-items-center">
                                 <div className="student-image-container">
                                     <img src='https://www.nicepng.com/png/detail/191-1919532_teacher-png-female-teacher-clipart.png' alt='Excellent Teachers' className="student-image rounded-circle" />

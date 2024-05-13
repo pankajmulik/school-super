@@ -4,7 +4,7 @@
   grid-gap: 5px;
   padding-top: 40px;
   animation: fadeIn 1s ease-in;
-  
+  overflow-x: hidden;
 }
 
 .amenities_card {
@@ -183,7 +183,17 @@
   }
 
   .amenities_title h2 {
-    font-size: 28px;
+    font-size: 38px !important;
   }
+ .school-amenties-text{
+  font-size:20px !important;
+ }
+ .amenities_card-front,
+.amenities_card-back{
+  width: 70% !important;
+  margin: 0 20% !important;
+}
 }
 
+
+ 

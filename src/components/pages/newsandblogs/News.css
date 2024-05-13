@@ -14,6 +14,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin:6% 0% !important;
 }
 .news-card {
   flex: 340px;
@@ -23,12 +24,15 @@
   margin-top: 30px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transform transition */
+
+
 }
 
 .news-card:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
   transform: scale(1.1) !important; /* Zoom out effect */
   background-color: #adb5bd;
+  margin:4% 0% !important;
 }
 
 .news-card-img-top {
@@ -64,4 +68,20 @@
 .animate__animated:hover .news-card-title,
 .animate__animated:hover .news-card-text {
   color: red; /* Change text color to red on hover */
+}
+
+
+@media screen and (max-width:576px) {
+
+ .news-card-container{
+  display: block !important;
+  width: 100% !important;
+
+  padding: 0 20% !important;
+ }
+ .news-card{
+  width: 100% !important;
+  margin:4% 0% !important;
+ }
+  
 }

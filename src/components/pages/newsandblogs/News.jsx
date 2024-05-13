@@ -52,21 +52,21 @@ const News = () => {
             </div>
 
 
-            <div className="news-container">
+            <div className="news-container" style={{width:'100%'}}>
 
                 {/* <h1 style={{ marginLeft: '50px', color: 'blue', fontSize: '60px', textAlign: 'center', marginTop: '50px', }} className='news-heading animate__animated animate__fadeInDown no-hover-shadow'>LATEST NEWS</h1> */}
 
                 <div className="news-content">
-                    <h1 style={{ marginLeft: '10px', color: 'SlateBlue', fontSize: '60px', textAlign: 'center', marginTop: '50px', }} className='tagh1 animate__animated animate__fadeInDown no-hover-shadow' id=''>LATEST NEWS</h1>
-                    <div className="news-card-container grid grid-cols">
+                    <h1 style={{ marginLeft: '10px', color: 'SlateBlue', fontSize: '60px', textAlign: 'center', marginTop: '50px', marginBottom:'5%'}} className='tagh1 animate__animated animate__fadeInDown no-hover-shadow' id=''>LATEST NEWS</h1>
+                    <div className="news-card-container row  grid grid-cols">
                         {/* Card 1 */}
-                        <div className="news-card col-3 animate__animated animate__fadeInLeft">
+                        <div className="news-card col-3  animate__animated animate__fadeInLeft">
                             <img src="https://bostonworldschool.com/wp-content/uploads/2023/02/zoo.jpg" className="news-card-img-top" alt="Image 1" />
                             <div className="news-card-body ">
                                 <h5 className="news-card-title">School Trip to Zoo</h5>
                                 <p className="news-card-text">Students had an amazing time exploring the zoo and learning about various animals. They particularly enjoyed feeding the giraffes and watching the penguins swim.</p>
                                 <p className="news-card-text"><small className="news-text-muted">May 5, 2024</small></p>
-                            </div>
+                            </div> 
                         </div>
 
                         {/* Card 2 */}

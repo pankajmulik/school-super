@@ -12,7 +12,7 @@ const FixedImage = () => {
             <div className="imagefix1"><h1>Tell Us What Are You Looking For</h1>
                 <h3 className='text-light'>It strives to deliver value-based quality education and imbibe top-class management skills</h3>
            
-                    <button className='contact_us_button' onClick={handleClick}>CONTACT US</button>
+                    <button className='contact_us_button fs-6' onClick={handleClick}>CONTACT US</button>
             </div>
 
         </div> 

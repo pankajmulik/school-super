@@ -228,6 +228,12 @@ p {
     .features {
         grid-template-columns: 1fr;
     }
+    .student-card{
+        text-align: center !important;
+        margin: auto !important;
+    }
+
+
 }
 
 .rounded {

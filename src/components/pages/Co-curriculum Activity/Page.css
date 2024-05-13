@@ -93,12 +93,12 @@ body {
         
     }
     .cocurr-p,button{
-        font-size: 7px !important;
+        font-size: 15px !important;
         width: auto;
         
     }
     .content h3{
-        font-size: medium !important;
+        font-size: large !important;
     }
 
 }

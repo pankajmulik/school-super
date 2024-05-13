@@ -49,6 +49,8 @@ import sm from "./assets/images/sm.jpg";
 import drama from "./assets/images/drama.jpeg";
 import FixedImage from "../../fixedimage/FixedImage";
 
+import './Calender.css'
+
 const CombinedComponent = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -418,7 +420,7 @@ const CombinedComponent = () => {
           show={showModal}
           onHide={handleCloseModal}
           centered
-        >
+       id='cal-mod-d' >
           <Modal.Header closeButton>
             <Modal.Title>{selectedEvent.title}</Modal.Title>
           </Modal.Header>

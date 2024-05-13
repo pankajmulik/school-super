@@ -209,8 +209,8 @@ Additional Information: Miss Williams is also the school's debate coach and has 
         Staff And Faculty
       </h1>
       </div>
-      <div className="container pt-3">
-     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div className="container justify-content-center pt-3" >
+        <div className="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-4" >
     {/* First row */}
     <div className="col">
       <div className="founder-card rounded-3 mx-5">
@@ -225,11 +225,17 @@ Additional Information: Miss Williams is also the school's debate coach and has 
                   <h5 className="founder-title">Mr.Wilson</h5>
                 </div>
          
-          <p className="founder-text">
-            Name: Mr. Wilson<br></br>
-            Education: Bachelor's Degree<br></br>
-            Specialization: Civics<br></br>
-            Additional Info: Mr. Wilson is also the school's debate coach and has led the debate team to several victories at the district level.
+          <p className="founder-text ">
+            {/* Name: Mr. Wilson<br></br> */}
+                  <strong >
+                    Education:
+                  </strong> Bachelor's Degree<br></br>
+                  <strong>
+                    Specialization:
+                  </strong> Civics<br></br>
+                  <strong>
+                    Additional Info:
+                  </strong> Mr. Wilson is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
         </div>
       </div>
@@ -252,10 +258,16 @@ Additional Information: Miss Williams is also the school's debate coach and has 
                   </span><br></br> */}
                   <span>
 
-                    Education: Bachelor's Degree<br></br>
+                    <strong >
+                      Education:
+                    </strong> Bachelor's Degree<br></br>
                   </span>
-            Specialization: English<br></br>
-            Additional Info: Miss Anderson is also the school's debate coach and has led the debate team to several victories at the district level.
+                  <strong>
+                    Specialization:
+                  </strong> English<br></br>
+                  <strong>
+                    Additional Info:
+                  </strong> Miss Anderson is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
         </div>
       </div>
@@ -275,10 +287,16 @@ Additional Information: Miss Williams is also the school's debate coach and has 
                   <h5 className="founder-title">Mr. White</h5>
                 </div>
           <p className="founder-text">
-            Name: Mr. White<br></br>
-            Education: Bachelor's Degree<br></br>
-            Specialization: Geography<br></br>
-            Additional Info:  Mr.White is also the school's debate coach and has led the debate team to several victories at the district level.
+            {/* Name: Mr. White<br></br> */}
+                  <strong >
+                    Education:
+                  </strong> Bachelor's Degree<br></br>
+                  <strong>
+                    Specialization:
+                  </strong> Geography<br></br>
+                  <strong>
+                    Additional Info:
+                  </strong>  Mr.White is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
         </div>
       </div>
@@ -300,10 +318,16 @@ Additional Information: Miss Williams is also the school's debate coach and has 
                 </div>
 
           <p className="founder-text">
-            Name: Mr. Clark<br></br>
-            Education: Bachelor's Degree<br></br>
-            Specialization: Science<br></br>
-            Additional Info:  Mr.Clark is also the school's debate coach and has led the debate team to several victories at the district level.
+            {/* Name: Mr. Clark<br></br> */}
+                  <strong >
+                    Education:
+                  </strong> Bachelor's Degree<br></br>
+                  <strong>
+                    Specialization:
+                  </strong> Science<br></br>
+                  <strong>
+                    Additional Info:
+                  </strong> Mr.Clark is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
         </div>
       </div>
@@ -324,10 +348,16 @@ Additional Information: Miss Williams is also the school's debate coach and has 
                 </div>
                 
           <p className="founder-text">
-            Name: Mr. Martinez<br></br>
-            Education: Bachelor's Degree<br></br>
-            Specialization: Maths<br></br>
-            Additional Info:  Mr.Martinez is also the school's debate coach and has led the debate team to several victories at the district level.
+            {/* Name: Mr. Martinez<br></br> */}
+                  <strong >
+                    Education:
+                  </strong> Bachelor's Degree<br></br>
+                  <strong>
+                    Specialization:
+                  </strong> Maths<br></br>
+                  <strong>
+                    Additional Info:
+                  </strong>  Mr.Martinez is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
         </div>
       </div>
@@ -354,10 +384,21 @@ Additional Information: Miss Williams is also the school's debate coach and has 
                 </div>
 
           <p className="founder-text">
-            Name: Miss. Thompson<br></br>
-            Education: Bachelor's Degree<br></br>
-            Specialization: Economics<br></br>
-            Additional Info: Miss Thompson is also the school's debate coach and has led the debate team to several victories at the district level.
+            {/* Name: Miss. Thompson<br></br> */}
+                  <strong >
+                    Education: 
+                  </strong>
+                  Bachelor's Degree<br></br>
+
+                  <strong>
+                    Specialization:
+                  </strong>
+                  Economics<br></br>
+                  <strong>
+                    Additional Info:
+                  </strong>
+                  
+             Miss Thompson is also the school's debate coach and has led the debate team to several victories at the district level.
           </p>
         </div>
       </div>

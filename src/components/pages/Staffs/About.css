@@ -100,7 +100,13 @@
   transform: translateY(100%);
   transition: transform 0.3s;
 }
-
+.founder-title{
+  color: #d3eb5b;
+}
+.founder-text, strong{
+  font-size: medium !important;
+  color: rgb(56, 239, 239);
+}
 .founder-card:hover .founder-body {
   transform: translateY(0);
 }
@@ -108,4 +114,14 @@
 .slide{
   height: 300px;
   width: 300px;
+}
+
+@media screen  and (max-width:576px){
+ .founder-card{
+  margin-left: 18% !important;
+  
+ }
+ .flip-card{
+  margin-left: 18% !important;
+ }
 }

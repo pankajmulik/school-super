@@ -7,11 +7,11 @@
 .class_table{
   align-self: center;
   margin-bottom: 60px !important;
-  margin-left: 13%;
+  margin-left: 4%;
   border: 2px solid #000435 !important;
   box-shadow: 0 0 50px rgba(0, 0, 0, 1); /* Adjust shadow intensity as needed */
   border-radius: 10px !important; /* Adjust border radius as needed */
-  width: 70% !important;
+  width: 95% !important;
 }
 
 .class_subheading_form{

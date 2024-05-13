@@ -82,7 +82,7 @@ function MyCarousel() {
         {/* Slide 2 */}
         <Carousel.Item>
           <div style={{ position: 'relative' }}>
-            <img className='d-block w-100' src={img2} alt='img2' style={{ maxHeight: '18%', objectFit: 'cover' }} />
+            <img className='d-block w-100' src={img2} alt='img2' style={{ maxHeight: '480px', objectFit: 'cover' }} />
             <div className="d-none d-md-flex justify-content-center align-items-center" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white', maxWidth: '80%', padding: '20px', backgroundColor: 'rgba(0, 0, 0, 0.6)', boxShadow: '0 0 20px 10px blue, 0 0 20px 10px purple, 0 0 20px 10px orange', animation: 'glow 2s infinite alternate' }}>
               <div className="container">
                 <h3 className="display-4" style={{ color: 'blueviolet' }}>Make A Bright Future For Your Child</h3>
@@ -101,7 +101,7 @@ function MyCarousel() {
         {/* Slide 3 */}
         <Carousel.Item>
           <div  style={{ position: 'relative'  }}>
-            <img className='d-block w-100' src={img3} alt='img3' style={{ maxHeight: '18%', objectFit: 'cover',  }} />
+            <img className='d-block w-100' src={img3} alt='img3' style={{ maxHeight: '480px', objectFit: 'cover',  }} />
             <div className="d-none d-md-block" style={{ position: 'absolute', top: '50%', left: '10%', transform: 'translateY(-50%)', textAlign: 'left', color: 'white', maxWidth: '30%', backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1), 0 0 20px 10px blue, 0 0 20px 10px orange', animation: 'glow 2s infinite alternate' }}>
               <h3 className="display-4" style={{ marginBottom: '10px', color: 'blueviolet' }}>Explore Your Knowledge: Start Your Journey</h3>
               <p className="lead" style={{ fontSize: '1.2em', marginBottom: '20px' }}>Building Foundations, Shaping Futures: Enroll Today!!</p>

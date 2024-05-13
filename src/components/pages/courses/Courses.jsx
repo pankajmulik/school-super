@@ -150,7 +150,7 @@ function CourseCard({ id, title, rating, description, imageUrl, index, handleRea
                 <div className="unique-card-back">
                     <Card.Body className="unique-card-body">
                         <Card.Title className="unique-card-title">{title}</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Rating: {rating}</Card.Subtitle>
+                        <Card.Subtitle className="mb-1 text-muted">Rating: {rating}</Card.Subtitle>
                         <Card.Text>{description}</Card.Text>
                         <Button variant="primary" onClick={() => handleReadMore(id)}>Read more</Button>
                     </Card.Body>
@@ -194,7 +194,8 @@ const Courses = () => {
               <Image src={heroImage} fluid className="unique-hero-image" />
               <div className="unique-hero-text">
                   <h1>Our Courses</h1>
-                  <p>An educated mind is better than an empty one. The only weapon to fight injustice is Education. A well-educated person knows about a lot of things</p>
+                  <p>An educated mind is better than an empty one. The only
+                      weapon to fight injustice is Education. A well-educated person knows about a lot of things</p>
               </div>
           </div>
           <Container>
